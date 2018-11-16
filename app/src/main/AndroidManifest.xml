@@ -23,11 +23,12 @@
         <activity
             android:name=".mahasiswa_home"
             android:label="@string/title_activity_mahasiswa_home"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
 
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name=".Dosen"
+            android:label="@string/title_activity_dosen"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

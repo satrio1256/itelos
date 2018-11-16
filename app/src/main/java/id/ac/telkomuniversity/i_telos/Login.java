@@ -31,6 +31,15 @@ public class Login extends AppCompatActivity
             finish();
             }
         });
+        Button loginDosenButton = (Button) findViewById(R.id.loginDosen);
+        loginDosenButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login.this, Dosen.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
 
