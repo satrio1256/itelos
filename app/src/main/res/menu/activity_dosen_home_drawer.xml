@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_page"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Halaman Utama" />
+
+        <item android:title="Akademik">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_assesment"
+                    android:title="Penilaian" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_schedule"
+                    android:title="Jadwal Pengajaran" />
+            </menu>
+        </item>
+
+        <item android:title="Kemahasiswaan">
+            <menu>
+                <item
+                    android:id="@+id/presensi_mahasiswa"
+                    android:icon="@drawable/ic_menu_check"
+                    android:title="Presensi Mahasiswa"/>
+                <item
+                    android:id="@+id/registrasi_mahasiswa"
+                    android:icon="@drawable/ic_menu_registration"
+                    android:title="Registrasi Mahasiswa"/>
+            </menu>
+        </item>
+
+        <item android:title="Akun">
+            <menu>
+                <item
+                    android:id="@+id/pengaturan_akun"
+                    android:icon="@drawable/ic_menu_account"
+                    android:title="Pengaturan Akun"/>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_menu_logout"
+                    android:title="Logout"/>
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

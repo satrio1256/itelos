@@ -20,7 +20,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="end"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_mahasiswa_home"
-        app:menu="@menu/activity_mahasiswa_home_drawer" />
+        app:headerLayout="@layout/nav_header_dosen"
+        app:menu="@menu/activity_dosen_home_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

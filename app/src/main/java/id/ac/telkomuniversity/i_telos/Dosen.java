@@ -19,6 +19,8 @@ import android.widget.Toast;
 public class Dosen extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private Menu menu;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,6 +52,9 @@ public class Dosen extends AppCompatActivity
                 }
             }
         });
+
+        // To Set "Halaman Utama" as Checked
+        navigationView.getMenu().findItem(R.id.main_page).setChecked(true);
     }
 
     @Override
@@ -65,9 +70,14 @@ public class Dosen extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.mahasiswa_home, menu);
+        getMenuInflater().inflate(R.menu.dosen, menu);
         return true;
     }
+
+//    @Override
+//    public boolean onPrepareOptionsMenu(Menu menu) {
+//        return true;
+//    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -91,7 +101,7 @@ public class Dosen extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
