@@ -6,17 +6,17 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/main_page"
-            android:icon="@drawable/ic_home_black_24dp"
+            android:icon="@drawable/ic_menu_home"
             android:title="Halaman Utama" />
 
         <item android:title="Akademik">
             <menu>
                 <item
-                    android:id="@+id/nav_share"
+                    android:id="@+id/penilaian"
                     android:icon="@drawable/ic_menu_assesment"
                     android:title="Penilaian" />
                 <item
-                    android:id="@+id/nav_send"
+                    android:id="@+id/jadwal"
                     android:icon="@drawable/ic_menu_schedule"
                     android:title="Jadwal Pengajaran" />
             </menu>
