@@ -13,7 +13,7 @@
             <menu>
                 <item
                     android:id="@+id/tagihan_pembayaran"
-                    android:icon="@drawable/ic_menu_invoince"
+                    android:icon="@drawable/ic_menu_invoice"
                     android:title="Tagihan Pembayaran" />
             </menu>
         </item>
