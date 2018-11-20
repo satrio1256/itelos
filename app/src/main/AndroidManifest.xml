@@ -31,6 +31,10 @@
         <activity
             android:name=".RegistrasiMahasiswa"
             android:label="@string/title_activity_registrasi_mahasiswa"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".tagihanPembayaranMahasiswa"
+            android:label="@string/title_activity_tagihan_pembayaran_mahasiswa"
             android:theme="@style/AppTheme"></activity>
     </application>
 
