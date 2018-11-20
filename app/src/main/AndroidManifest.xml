@@ -39,6 +39,10 @@
         <activity
             android:name=".ProfilMahasiswa"
             android:label="@string/title_activity_profil_mahasiswa"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PresensiMahasiswa"
+            android:label="@string/title_activity_presensi_mahasiswa"
             android:theme="@style/AppTheme"></activity>
     </application>
 

@@ -12,4 +12,5 @@
     <string name="title_activity_registrasi_mahasiswa">activity_registrasi_mahasiswa</string>
     <string name="title_activity_tagihan_pembayaran_mahasiswa">Tagihan Pembayaran</string>
     <string name="title_activity_profil_mahasiswa">Profil Mahasiswa</string>
+    <string name="title_activity_presensi_mahasiswa">Presensi Mahasiswa</string>
 </resources>

@@ -112,10 +112,9 @@ public class TagihanPembayaranMahasiswa extends AppCompatActivity
             Intent intent = new Intent(this, ProfilMahasiswa.class);
             startActivity(intent);
             finish();
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.presensi_mahasiswa) {
+            Intent intent = new Intent(this, PresensiMahasiswa.class);
+            startActivity(intent);
         } else if (id == R.id.logout) {
             Intent intent = new Intent(this, Login.class);
             startActivity(intent);
