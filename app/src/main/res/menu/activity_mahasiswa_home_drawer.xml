@@ -25,10 +25,6 @@
                     android:icon="@drawable/ic_menu_registration"
                     android:title="Registrasi Mata Kuliah" />
                 <item
-                    android:id="@+id/kegiatan_akademik"
-                    android:icon="@drawable/ic_menu_assesment"
-                    android:title="Kegiatan Akademik" />
-                <item
                     android:id="@+id/presensi_mahasiswa"
                     android:icon="@drawable/ic_menu_check"
                     android:title="Presensi Mahasiswa" />

@@ -18,16 +18,16 @@
                 <item
                     android:id="@+id/jadwal"
                     android:icon="@drawable/ic_menu_schedule"
-                    android:title="Jadwal Pengajaran" />
+                    android:title="Jadwal Mengajar" />
             </menu>
         </item>
 
         <item android:title="Kemahasiswaan">
             <menu>
-                <item
-                    android:id="@+id/presensi_mahasiswa"
-                    android:icon="@drawable/ic_menu_check"
-                    android:title="Presensi Mahasiswa"/>
+                <!--<item-->
+                    <!--android:id="@+id/presensi_mahasiswa"-->
+                    <!--android:icon="@drawable/ic_menu_check"-->
+                    <!--android:title="Presensi Mahasiswa"/>-->
                 <item
                     android:id="@+id/registrasi_mahasiswa"
                     android:icon="@drawable/ic_menu_registration"

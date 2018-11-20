@@ -43,6 +43,10 @@
         <activity
             android:name=".PresensiMahasiswa"
             android:label="@string/title_activity_presensi_mahasiswa"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JadwalDosen"
+            android:label="@string/title_activity_jadwal_dosen"
             android:theme="@style/AppTheme"></activity>
     </application>
 

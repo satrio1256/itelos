@@ -54,7 +54,9 @@ public class Dosen extends AppCompatActivity
             }
         });
 
-        // To Set "Halaman Utama" as Checked
+        if (navigationView.getCheckedItem() != null) {
+            navigationView.getCheckedItem().setChecked(false);
+        }
         navigationView.getMenu().findItem(R.id.main_page).setChecked(true);
     }
 
@@ -101,10 +103,9 @@ public class Dosen extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-
-        } else if (id == R.id.nav_gallery) {
-
+        if (id == R.id.jadwal) {
+            Intent intent = new Intent(this, JadwalDosen.class);
+            startActivity(intent);
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
@@ -114,7 +115,7 @@ public class Dosen extends AppCompatActivity
         } else if (id == R.id.nav_send) {
 
         } else if (id == R.id.logout) {
-            Intent intent = new Intent(Dosen.this, Login.class);
+            Intent intent = new Intent(this, Login.class);
             startActivity(intent);
             finish();
         }

@@ -29,6 +29,8 @@ public class Login extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Login.this, Dosen.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 finish();
             }

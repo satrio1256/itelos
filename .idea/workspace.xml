@@ -16,7 +16,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1770ba0-1648-4933-bde9-95a9912a2e10" name="Default" comment="">
+    <list default="true" id="b1770ba0-1648-4933-bde9-95a9912a2e10" name="Default" comment="Implement Lecturers Schedule Page">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/JadwalDosen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_jadwal_dosen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_jadwal_dosen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_jadwal_dosen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/jadwal_dosen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -25,10 +30,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/PresensiMahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/PresensiMahasiswa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_presensi_mahasiswa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_presensi_mahasiswa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_presensi_mahasiswa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_presensi_mahasiswa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Dosen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Dosen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_dosen_home_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_dosen_home_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_mahasiswa_home_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_mahasiswa_home_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,23 +76,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="content_presensi_mahasiswa.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_presensi_mahasiswa.xml">
+      <file leaf-file-name="JadwalDosen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/JadwalDosen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="145" column="51" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
+            <state relative-caret-position="171">
+              <caret line="105" column="50" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="50" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_dosen_home.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dosen_home.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state />
           </provider>
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_presensi_mahasiswa.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_presensi_mahasiswa.xml">
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dosen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Dosen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_jadwal_dosen.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_jadwal_dosen.xml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_bar_jadwal_dosen.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_jadwal_dosen.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="8" selection-end-line="30" selection-end-column="64" />
             </state>
           </provider>
           <provider selected="true" editor-type-id="android-designer2">
@@ -91,12 +135,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PresensiMahasiswa.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/PresensiMahasiswa.java">
+      <file leaf-file-name="activity_jadwal_dosen.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_jadwal_dosen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-560">
-              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="276">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -111,8 +158,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>drawerLayout</find>
-      <find>drawer_layout</find>
       <find>layout</find>
       <find>menu</find>
       <find>on</find>
@@ -129,10 +174,15 @@
       <find>framelayou</find>
       <find>#19199</find>
       <find>GravityCompat.START</find>
+      <find>drawerLayout</find>
+      <find>drawer_layout</find>
+      <find>nav_view</find>
+      <find>dosen_layout</find>
     </findStrings>
     <replaceStrings>
       <replace>0dp</replace>
       <replace>GravityCompat.END</replace>
+      <replace>drawer_layout</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -2413,28 +2463,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_mahasiswa_home.xml" />
-        <option value="$PROJECT_DIR$/local.properties" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_dosen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_dosen_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_dosen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_home_black_24dp.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/dosen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/SplashScreen.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Dosen.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mahasiswa_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_activity_registrasi_mahasiswa.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_activity_registrasi_mahasiswa.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Menu.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/BaseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/activity_registrasi_mahasiswa.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Login.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_dosen_home_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/mahasiswa_home.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registrasi_mahasiswa.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_registrasi_mahasiswa.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_mahasiswa_home.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_mahasiswa_home_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_mahasiswa_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/button_ripple.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-v21/button_ripple.xml" />
@@ -2463,6 +2505,15 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_presensi_mahasiswa.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_presensi_mahasiswa.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/PresensiMahasiswa.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_mahasiswa_home_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_jadwal_dosen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Login.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mahasiswa_home.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_jadwal_dosen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_dosen_home_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/JadwalDosen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Dosen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_jadwal_dosen.xml" />
       </list>
     </option>
   </component>
@@ -2480,9 +2531,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2522,6 +2572,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2535,8 +2586,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v21" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/menu" />
     </key>
     <key name="android.template.packageName">
       <recent name="id.ac.telkomuniversity.i_telos" />
@@ -2544,10 +2597,8 @@
     <key name="android.template.parentActivityClass">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v21" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/menu" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2743,7 +2794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542722882431</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implement Student Presence Page">
+      <created>1542726922770</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542726922770</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2768,7 +2826,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Preview" order="4" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32998326" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32998326" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32888147" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32495812" />
       <window_info anchor="bottom" id="Logcat" order="0" weight="0.32998326" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -2776,6 +2834,7 @@
       <window_info id="Designer" order="4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22424242" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32998326" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32998326" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.32954547" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="8" side_tool="true" weight="0.28939393" />
@@ -2789,7 +2848,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32998326" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Build" order="9" visible="true" weight="0.32998326" />
@@ -2840,73 +2898,11 @@
     <MESSAGE value="Implementation of Student Invoice Page" />
     <MESSAGE value="Implementation of Student Profile Page" />
     <MESSAGE value="Add Presence Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Presence Page" />
+    <MESSAGE value="Implement Student Presence Page" />
+    <MESSAGE value="Implement Lecturers Schedule Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Lecturers Schedule Page" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/dosen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/registrasi_mahasiswa.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_registrasi_mahasiswa.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="8" selection-end-line="30" selection-end-column="64" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_dosen_home_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/button_ripple_primary.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/button_ripple_primary.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/button_ripple.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -2925,27 +2921,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_tagihan_pembayaran_mahasiswa_drawer.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/drawables.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Dosen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="116" column="45" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_tagihan_pembayaran_mahasiswa.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mahasiswa_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2980,13 +2959,6 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_profil_mahasiswa.xml" />
@@ -3064,26 +3036,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_profil_mahasiswa.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="3876">
-          <caret line="228" column="74" selection-start-line="228" selection-start-column="74" selection-end-line="228" selection-end-column="74" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_matkul_mahasiswa.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_detail_mahasiswa.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state />
@@ -3120,32 +3072,8 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_presensi_mahasiswa_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_presensi_mahasiswa.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_mahasiswa_home.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_presensi_mahasiswa_drawer.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_presensi_mahasiswa.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_registrasi_mahasiswa.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="505">
@@ -3153,16 +3081,6 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_mahasiswa_home_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
@@ -3197,13 +3115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/BerandaMahasiswa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="87" column="51" lean-forward="true" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_presensi_mahasiswa.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -3214,10 +3125,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_presensi_mahasiswa.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_matkul_mahasiswa.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="145" column="51" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
+        <state relative-caret-position="102">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="53" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3234,11 +3145,151 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_presensi_mahasiswa.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="51" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_jadwal_dosen_drawer.xml">
+      <provider editor-type-id="text-editor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_profil_mahasiswa.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="228" column="74" selection-start-line="228" selection-start-column="74" selection-end-line="228" selection-end-column="74" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_mahasiswa_home.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_login_drawer.xml">
+      <provider editor-type-id="text-editor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_mahasiswa_home_drawer.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_jadwal_dosen.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="8" selection-end-line="30" selection-end-column="64" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_dosen_home_drawer.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="20" selection-end-line="29" selection-end-column="60" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_jadwal_dosen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mahasiswa_home.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/PresensiMahasiswa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="-900">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/BerandaMahasiswa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382">
+          <caret line="58" column="9" selection-start-line="56" selection-start-column="8" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/Dosen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/ac/telkomuniversity/i_telos/JadwalDosen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="105" column="50" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dosen_home.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_jadwal_dosen.xml">
+      <provider editor-type-id="text-editor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>
