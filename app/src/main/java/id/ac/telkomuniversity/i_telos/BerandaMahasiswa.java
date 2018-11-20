@@ -89,19 +89,21 @@ public class BerandaMahasiswa extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.registrasi_mk) {
-            Intent intent = new Intent(BerandaMahasiswa.this, RegistrasiMahasiswa.class);
+            Intent intent = new Intent(this, RegistrasiMahasiswa.class);
             startActivity(intent);
         } else if (id == R.id.tagihan_pembayaran) {
-            Intent intent = new Intent(BerandaMahasiswa.this, TagihanPembayaranMahasiswa.class);
+            Intent intent = new Intent(this, TagihanPembayaranMahasiswa.class);
             startActivity(intent);
-        } else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.profil) {
+            Intent intent = new Intent(this, ProfilMahasiswa.class);
+            startActivity(intent);
+            finish();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 
         } else if (id == R.id.logout) {
-            Intent intent = new Intent(BerandaMahasiswa.this, Login.class);
+            Intent intent = new Intent(this, Login.class);
             startActivity(intent);
             finish();
         }

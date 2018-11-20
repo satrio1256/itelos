@@ -183,23 +183,25 @@ public class RegistrasiMahasiswa extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.main_page) {
-            Intent intent = new Intent(RegistrasiMahasiswa.this, BerandaMahasiswa.class);
+            Intent intent = new Intent(this, BerandaMahasiswa.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             finish();
         } else if (id == R.id.tagihan_pembayaran) {
-            Intent intent = new Intent(RegistrasiMahasiswa.this, TagihanPembayaranMahasiswa.class);
+            Intent intent = new Intent(this, TagihanPembayaranMahasiswa.class);
             startActivity(intent);
             finish();
-        } else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.profil) {
+            Intent intent = new Intent(this, ProfilMahasiswa.class);
+            startActivity(intent);
+            finish();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 
         } else if (id == R.id.logout) {
-            Intent intent = new Intent(RegistrasiMahasiswa.this, Login.class);
+            Intent intent = new Intent(this, Login.class);
             startActivity(intent);
             finish();
         }

@@ -99,23 +99,25 @@ public class TagihanPembayaranMahasiswa extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.main_page) {
-            Intent intent = new Intent(TagihanPembayaranMahasiswa.this, BerandaMahasiswa.class);
+            Intent intent = new Intent(this, BerandaMahasiswa.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             finish();
         } else if (id == R.id.registrasi_mk) {
-            Intent intent = new Intent(TagihanPembayaranMahasiswa.this, RegistrasiMahasiswa.class);
+            Intent intent = new Intent(this, RegistrasiMahasiswa.class);
             startActivity(intent);
             finish();
-        } else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.profil) {
+            Intent intent = new Intent(this, ProfilMahasiswa.class);
+            startActivity(intent);
+            finish();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 
         } else if (id == R.id.logout) {
-            Intent intent = new Intent(TagihanPembayaranMahasiswa.this, Login.class);
+            Intent intent = new Intent(this, Login.class);
             startActivity(intent);
             finish();
         }
