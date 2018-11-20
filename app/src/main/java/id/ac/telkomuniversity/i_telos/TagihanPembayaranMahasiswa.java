@@ -2,19 +2,16 @@ package id.ac.telkomuniversity.i_telos;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
-public class tagihanPembayaranMahasiswa extends AppCompatActivity
+public class TagihanPembayaranMahasiswa extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
@@ -39,8 +36,28 @@ public class tagihanPembayaranMahasiswa extends AppCompatActivity
 //        drawer.addDrawerListener(toggle);
 //        toggle.syncState();
 
+        ImageView image = (ImageView) findViewById(R.id.menuToggle);
+        image.setClickable(true);
+        image.bringToFront();
+        image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+                if (drawer.isDrawerOpen(GravityCompat.END)) {
+                    drawer.closeDrawer(GravityCompat.END);
+                } else {
+                    drawer.openDrawer(GravityCompat.END);
+                }
+            }
+        });
+
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        if (navigationView.getCheckedItem() != null) {
+            navigationView.getCheckedItem().setChecked(false);
+        }
+        navigationView.getMenu().findItem(R.id.tagihan_pembayaran).setChecked(true);
     }
 
     @Override
@@ -82,13 +99,13 @@ public class tagihanPembayaranMahasiswa extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.main_page) {
-            Intent intent = new Intent(tagihanPembayaranMahasiswa.this, BerandaMahasiswa.class);
+            Intent intent = new Intent(TagihanPembayaranMahasiswa.this, BerandaMahasiswa.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             finish();
         } else if (id == R.id.registrasi_mk) {
-            Intent intent = new Intent(tagihanPembayaranMahasiswa.this, RegistrasiMahasiswa.class);
+            Intent intent = new Intent(TagihanPembayaranMahasiswa.this, RegistrasiMahasiswa.class);
             startActivity(intent);
             finish();
         } else if (id == R.id.nav_manage) {
@@ -98,7 +115,7 @@ public class tagihanPembayaranMahasiswa extends AppCompatActivity
         } else if (id == R.id.nav_send) {
 
         } else if (id == R.id.logout) {
-            Intent intent = new Intent(tagihanPembayaranMahasiswa.this, Login.class);
+            Intent intent = new Intent(TagihanPembayaranMahasiswa.this, Login.class);
             startActivity(intent);
             finish();
         }

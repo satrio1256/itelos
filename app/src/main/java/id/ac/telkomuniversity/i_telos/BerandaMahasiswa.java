@@ -92,7 +92,7 @@ public class BerandaMahasiswa extends AppCompatActivity
             Intent intent = new Intent(BerandaMahasiswa.this, RegistrasiMahasiswa.class);
             startActivity(intent);
         } else if (id == R.id.tagihan_pembayaran) {
-            Intent intent = new Intent(BerandaMahasiswa.this, tagihanPembayaranMahasiswa.class);
+            Intent intent = new Intent(BerandaMahasiswa.this, TagihanPembayaranMahasiswa.class);
             startActivity(intent);
         } else if (id == R.id.nav_manage) {
 

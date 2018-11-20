@@ -7,21 +7,14 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
-import android.transition.Slide;
-import android.transition.Transition;
-import android.transition.TransitionValues;
-import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.view.animation.TranslateAnimation;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 public class RegistrasiMahasiswa extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -196,7 +189,7 @@ public class RegistrasiMahasiswa extends AppCompatActivity
             startActivity(intent);
             finish();
         } else if (id == R.id.tagihan_pembayaran) {
-            Intent intent = new Intent(RegistrasiMahasiswa.this, tagihanPembayaranMahasiswa.class);
+            Intent intent = new Intent(RegistrasiMahasiswa.this, TagihanPembayaranMahasiswa.class);
             startActivity(intent);
             finish();
         } else if (id == R.id.nav_manage) {
