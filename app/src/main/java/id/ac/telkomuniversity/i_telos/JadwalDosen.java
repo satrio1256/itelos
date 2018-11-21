@@ -112,14 +112,10 @@ public class JadwalDosen extends AppCompatActivity
             Intent intent = new Intent(this, JadwalDosen.class);
             startActivity(intent);
             finish();
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.pengaturan_akun) {
+            Intent intent = new Intent(this, ProfilDosen.class);
+            startActivity(intent);
+            finish();
         } else if (id == R.id.logout) {
             Intent intent = new Intent(this, Login.class);
             startActivity(intent);

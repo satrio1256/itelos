@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class Login extends AppCompatActivity
         /*implements NavigationView.OnNavigationItemSelectedListener*/ {
@@ -13,28 +15,6 @@ public class Login extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Button loginButton = (Button) findViewById(R.id.loginButton);
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-            Intent intent = new Intent(Login.this, BerandaMahasiswa.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(intent);
-            finish();
-            }
-        });
-        Button loginDosenButton = (Button) findViewById(R.id.loginDosen);
-        loginDosenButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Login.this, Dosen.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intent);
-                finish();
-            }
-        });
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
 
@@ -55,6 +35,25 @@ public class Login extends AppCompatActivity
 //
 //        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
 //        navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    public void checkUsername(View view) {
+        EditText username = (EditText) findViewById(R.id.usernameField);
+        if (username.getText().toString().toLowerCase().equals("robertsirjohnson")) {
+            Intent intent = new Intent(Login.this, BerandaMahasiswa.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+            finish();
+        } else if (username.getText().toString().toLowerCase().equals("sugivanto")) {
+            Intent intent = new Intent(Login.this, Dosen.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+            finish();
+        } else {
+            Toast.makeText(getApplicationContext(), "Username atau Password yang Anda masukkan salah"+username.getText().toString().toLowerCase(), Toast.LENGTH_LONG).show();
+        }
     }
 
 //    @Override

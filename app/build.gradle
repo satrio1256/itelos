@@ -6,9 +6,10 @@ android {
         applicationId "id.ac.telkomuniversity.i_telos"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode 211118
+        versionName '21.11.18'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionNameSuffix '_0259_debug'
     }
     buildTypes {
         release {

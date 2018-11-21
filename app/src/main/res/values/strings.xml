@@ -14,4 +14,5 @@
     <string name="title_activity_profil_mahasiswa">Profil Mahasiswa</string>
     <string name="title_activity_presensi_mahasiswa">Presensi Mahasiswa</string>
     <string name="title_activity_jadwal_dosen">JadwalDosen</string>
+    <string name="title_activity_profil_dosen">Pengaturan Akun Dosen</string>
 </resources>

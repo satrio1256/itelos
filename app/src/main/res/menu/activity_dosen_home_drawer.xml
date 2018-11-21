@@ -24,10 +24,6 @@
 
         <item android:title="Kemahasiswaan">
             <menu>
-                <!--<item-->
-                    <!--android:id="@+id/presensi_mahasiswa"-->
-                    <!--android:icon="@drawable/ic_menu_check"-->
-                    <!--android:title="Presensi Mahasiswa"/>-->
                 <item
                     android:id="@+id/registrasi_mahasiswa"
                     android:icon="@drawable/ic_menu_registration"

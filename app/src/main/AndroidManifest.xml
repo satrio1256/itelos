@@ -47,6 +47,10 @@
         <activity
             android:name=".JadwalDosen"
             android:label="@string/title_activity_jadwal_dosen"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ProfilDosen"
+            android:label="@string/title_activity_profil_dosen"
             android:theme="@style/AppTheme"></activity>
     </application>
 
