@@ -51,6 +51,10 @@
         <activity
             android:name=".ProfilDosen"
             android:label="@string/title_activity_profil_dosen"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PenilaianDosen"
+            android:label="@string/title_activity_penilaian_dosen"
             android:theme="@style/AppTheme"></activity>
     </application>
 

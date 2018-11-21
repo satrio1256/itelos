@@ -22,14 +22,14 @@
             </menu>
         </item>
 
-        <item android:title="Kemahasiswaan">
-            <menu>
-                <item
-                    android:id="@+id/registrasi_mahasiswa"
-                    android:icon="@drawable/ic_menu_registration"
-                    android:title="Registrasi Mahasiswa"/>
-            </menu>
-        </item>
+        <!--<item android:title="Kemahasiswaan">-->
+            <!--<menu>-->
+                <!--<item-->
+                    <!--android:id="@+id/registrasi_mahasiswa"-->
+                    <!--android:icon="@drawable/ic_menu_registration"-->
+                    <!--android:title="Registrasi Mahasiswa"/>-->
+            <!--</menu>-->
+        <!--</item>-->
 
         <item android:title="Akun">
             <menu>

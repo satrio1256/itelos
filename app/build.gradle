@@ -9,7 +9,7 @@ android {
         versionCode 211118
         versionName '21.11.18'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        versionNameSuffix '_0259_debug'
+        versionNameSuffix '_0928_debug'
     }
     buildTypes {
         release {

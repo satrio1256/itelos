@@ -106,6 +106,9 @@ public class Dosen extends AppCompatActivity
         if (id == R.id.jadwal) {
             Intent intent = new Intent(this, JadwalDosen.class);
             startActivity(intent);
+        } else if (id == R.id.penilaian) {
+            Intent intent = new Intent(this, PenilaianDosen.class);
+            startActivity(intent);
         } else if (id == R.id.pengaturan_akun) {
             Intent intent = new Intent(this, ProfilDosen.class);
             startActivity(intent);
