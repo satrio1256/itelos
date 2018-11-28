@@ -42,7 +42,7 @@
         android:layout_marginStart="173dp"
         android:layout_marginEnd="173dp"
         android:layout_marginBottom="16dp"
-        android:text="v211118_0928_debug"
+        android:text="v281118_2352_debug"
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

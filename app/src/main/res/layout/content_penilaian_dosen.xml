@@ -32,13 +32,15 @@
         app:srcCompat="@drawable/repeatgrid1" />
 
     <ScrollView
+        android:id="@+id/scrollView4"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView49">
+        app:layout_constraintTop_toBottomOf="@+id/searchView">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -353,5 +355,19 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:showDividers="none"
+        app:layout_constraintEnd_toStartOf="@+id/menuToggle"
+        app:layout_constraintStart_toEndOf="@+id/textView49"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
